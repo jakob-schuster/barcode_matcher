@@ -11,4 +11,3 @@ namespace scutil{
     unsigned int edit_distance1(const int64_t *a, const unsigned int asize, const int64_t *b, const unsigned int bsize);
 
 }
-
