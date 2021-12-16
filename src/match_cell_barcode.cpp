@@ -230,11 +230,11 @@ void get_bc_anno(std::string fn, std::unordered_map<std::string, std::string> &b
   }
   if (barcode_list.size() < 5)
   {
-    std::cout << "Number of cell barcode smaller than 5." << std::endl;
+    std::cout << "Number of cell barcodes is smaller than 5." << std::endl;
   }
   else
   {
-    std::cout << "First 5 cell barcode:" << std::endl;
+    std::cout << "First 5 cell barcodes:" << std::endl;
     for (int i = 0; i < 5; i++)
     {
       std::cout << "\t" << barcode_list[i] << std::endl;
