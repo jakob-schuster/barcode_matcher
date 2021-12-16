@@ -20,8 +20,25 @@ A file that the reads with matches will be printed to, as a compressed fastq (.f
 
 A file that contains the barcodes you want to search for. 
 
+Could be in the format:
 ```
 cell_id,barcode
+cell_id,barcode
+cell_id,barcode
+```
+Or the 10X barcode format:
+```
+AAACATACAAAACG-1
+AAACATACAAAAGC-1
+AAACATACAAACAG-1
+AAACATACAAACGA-1
+```
+Or simply a list of barcodes:
+```
+AAACATACAAAACG-1
+AAACATACAAAAGC-1
+AAACATACAAACAG-1
+AAACATACAAACGA-1
 ```
 
 ### 5. max edit distance
